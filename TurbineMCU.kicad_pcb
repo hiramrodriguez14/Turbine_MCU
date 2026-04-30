@@ -2265,13 +2265,13 @@
 		(descr "BQ294682DRVT")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
-			(at 0 0 0)
+			(at 0.05 2.45 0)
 			(layer "F.SilkS")
 			(uuid "f4d91388-3d9c-410c-b263-22275de4a410")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
