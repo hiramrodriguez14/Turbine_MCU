@@ -1,0 +1,21 @@
+Designator,Qty,Comment,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,JLCPCB Part#
+C1,1,2.2u,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,C50254
+"C2,C5,C8,C9",4,0.1u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,C28233
+"C3,C6",2,10n,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,C1846
+C4,1,10u,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,C13585
+C7,1,0.47u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,C13967
+C10,1,1u,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~,C1848
+D1,1,YELLOW,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,C2296
+D2,1,RED,,,,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,C2286
+IC1,1,MSPM0G3507SPMR,,,,MSPM03507:QFP50P1200X1200X160-64N,https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968,C22389960
+IC2,1,TPS73533DRVR,,,,TPS73533DRVR:SON65P200X200X80-7N,http://www.ti.com/lit/ds/symlink/tps735.pdf,C48984
+"J1,J2,J3,J4",4,Conn_01x02_Socket,,YES,,TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,~,
+"J5,J6,J8,J10,J13,J14",6,Conn_01x03_Socket,,YES,,TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,~,
+J15,1,Conn_01x08_Pin,,YES,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,
+"R1,R10",2,10k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17902
+"R2,R3,R8,R9",4,47k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,C17713
+"R4,R6",2,1k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C4410
+R5,1,100k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,C2912578
+R7,1,0,,YES,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,
+"R11,R12",2,20k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C18003
+"SW1,SW2",2,SW_Push,,YES,,Button_Switch_THT:SW_PUSH_6mm,~,

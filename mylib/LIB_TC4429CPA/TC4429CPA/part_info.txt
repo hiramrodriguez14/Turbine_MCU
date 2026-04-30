@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=TC4429CPA
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=1.1
+Released=2022-11-03 06:46:07
+Downloaded=2026-04-21 21:31:47
+3D=Y

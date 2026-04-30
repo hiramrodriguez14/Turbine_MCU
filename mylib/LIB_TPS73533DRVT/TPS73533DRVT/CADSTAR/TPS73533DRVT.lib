@@ -1,0 +1,16 @@
+.TPS73533DRVT :1 ;500mA 3.3V Low IQ/Noise LDO Reg. WSON6EP TPS73533DRVT, Low Dropout Voltage Regulator, 500mA, 1  4.3 V +/-1%, 6-Pin SON
+SON65P200X200X80-7N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="NR" 3="GND" 4="EN" 5="NC" 6="IN" 7="EP"
+*MXP 7
+*DFN TPS73533DRVT
+~!Mouser Part Number (595-TPS73533DRVT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS73533DRVT?qs=IDSsxkoac0yfD47GOItrRw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS73533DRVT)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tps735.pdf)
+~!Height (0.8mm)
+~!3D_Model (TPS73533DRVT)
+TPS73533DRVT
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,16 @@
+.TPS2121RUXR :1 ;2.7-22V, 56m, 4.5A, Priority Power MUX with Seamless Switchover
+TPS2121RUXR
+*STM IC
+*NGS
+*PLB 1="OUT_1" 2="IN2" 3="CP2" 4="OV2" 5="OV1" 6="PR1" 7="IN1" 8="OUT_2" 9="ST" 10="ILIM" 11="SS" 12="GND"
+*MXP 12
+*DFN TPS2121RUXR
+~!Mouser Part Number (595-TPS2121RUXR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXR?qs=qSfuJ%252Bfl%2Fd7dCYiVnUfngQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS2121RUXR)
+~!Link Datasheet (https://www.ti.com/lit/gpn/TPS2121)
+~!Height (1mm)
+~!3D_Model (TPS2121RUXR)
+TPS2121RUXR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

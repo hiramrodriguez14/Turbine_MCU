@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS73533DRVT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS73533DRVT" (!) = "", "SON65P200X200X80-7N", "Small Outline No-lead", "595-TPS73533DRVT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS73533DRVT?qs=IDSsxkoac0yfD47GOItrRw%3D%3D", "500mA 3.3V Low IQ/Noise LDO Reg. WSON6EP TPS73533DRVT, Low Dropout Voltage Regulator, 500mA, 1  4.3 V +/-1%, 6-Pin SON", "http://www.ti.com/lit/ds/symlink/tps735.pdf", "0.8 mm"
+END_PART
+
+END.

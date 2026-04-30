@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP41HV51-103E/ST
+PartCategory=Variable Resistor
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2018-05-17 09:48:57
+Downloaded=2026-04-22 19:06:51
+3D=Y

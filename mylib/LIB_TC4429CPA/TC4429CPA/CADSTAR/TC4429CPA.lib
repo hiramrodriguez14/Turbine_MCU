@@ -1,0 +1,16 @@
+.TC4429CPA :1 ;IC,Driver Interface,MOSFET,IGBT,TC4429CPA
+DIP794W56P254L946H432Q8N
+*STM IC
+*NGS
+*PLB 1="VDD_1" 2="INPUT" 3="NC" 4="GND_1" 5="GND_2" 6="'OUTPUT_1'" 7="'OUTPUT_2'" 8="VDD_2"
+*MXP 8
+*DFN TC4429CPA
+~!Mouser Part Number (579-TC4429CPA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4429CPA?qs=YUl711QUJY38xt9BogTiMQ%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (TC4429CPA)
+~!Link Datasheet (https://ww1.microchip.com/downloads/en/DeviceDoc/21419D.pdf)
+~!Height (4.32mm)
+~!3D_Model (TC4429CPA)
+TC4429CPA
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

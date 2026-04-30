@@ -1,0 +1,16 @@
+.MCP45HV51-103E_ST :1 ;10K Dig.Potentiometer 256 I2C VM TSSOP14 MCP45HV51-103E/ST, Digital Potentiometer 10k 256-Position Linear Serial-I2C 14-Pin TSSOP
+SOP65P640X120-14N
+*STM IC
+*NGS
+*PLB 1="VL" 2="SCL" 3="A1" 4="SDA" 5="A0" 6="'WLAT'" 7="NC" 8="'SHDN'" 9="DGND" 10="V-" 11="PB0" 12="PW0" 13="PA0" 14="V+"
+*MXP 14
+*DFN MCP45HV51-103E_ST
+~!Mouser Part Number (579-MCP45HV51-103EST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP45HV51-103E-ST?qs=wzzOUr4NhYpIXHuCsSah1A%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP45HV51-103E/ST)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en569827)
+~!Height (1.2mm)
+~!3D_Model (MCP45HV51-103E_ST)
+MCP45HV51-103E_ST
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

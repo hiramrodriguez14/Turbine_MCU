@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TC4429CPA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "TC4429CPA" (!) = "", "DIP794W56P254L946H432Q8N", "Dual-In-Line Packages", "579-TC4429CPA", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4429CPA?qs=YUl711QUJY38xt9BogTiMQ%3D%3D", "IC,Driver Interface,MOSFET,IGBT,TC4429CPA", "https://ww1.microchip.com/downloads/en/DeviceDoc/21419D.pdf", "4.32 mm"
+END_PART
+
+END.

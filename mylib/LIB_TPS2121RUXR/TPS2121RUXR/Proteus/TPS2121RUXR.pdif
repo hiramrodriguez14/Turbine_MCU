@@ -1,0 +1,170 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS2121RUXR"
+   (description "2.7-22V, 56m, 4.5A, Priority Power MUX with Seamless Switchover")
+   (family "ANA")
+   (package "TPS2121RUXR")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/gpn/TPS2121")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "595-TPS2121RUXR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXR?qs=qSfuJ%252Bfl%2Fd7dCYiVnUfngQ%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS2121RUXR")
+   (gate
+    (symbol "TPS2121RUXR")
+    (pin "OUT_1" 1 PS)
+    (pin "IN2" 2 PS)
+    (pin "CP2" 3 PS)
+    (pin "OV2" 4 PS)
+    (pin "OV1" 5 PS)
+    (pin "PR1" 6 PS)
+    (pin "IN1" 7 PS)
+    (pin "OUT_2" 8 PS)
+    (pin "ST" 9 PS)
+    (pin "ILIM" 10 PS)
+    (pin "SS" 11 PS)
+    (pin "GND" 12 PS)
+   )
+  )
+  (symbol "TPS2121RUXR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TPS2121RUXR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1.25)
+      (pt 1 1.25)
+      (pt 1 -1.25)
+      (pt -1 -1.25)
+      (pt -1 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 2.45)
+      (pt 2.2 2.45)
+      (pt 2.2 -2.45)
+      (pt -2.2 -2.45)
+      (pt -2.2 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0.35)
+      (arc (pt -1.600 0.350) (pt -1.700 0.300) (pt -1.600 0.400) (start 180.0) (sweep .0))
+      (pt -1.7 0.35)
+      (arc (pt -1.700 0.350) (pt -1.700 0.300) (pt -1.600 0.400) (start 180.0) (sweep 180.0))
+      (pt -1.6 0.35))))
+   (leg 1 (pt -0.675 0.350) (padstack 1))
+   (leg 2 (pt -0.675 -0.350) (padstack 2))
+   (leg 3 (pt -0.750 -1.150) (padstack 0))
+   (leg 4 (pt -0.250 -1.150) (padstack 0))
+   (leg 5 (pt 0.250 -1.150) (padstack 0))
+   (leg 6 (pt 0.750 -1.150) (padstack 0))
+   (leg 7 (pt 0.675 -0.350) (padstack 7))
+   (leg 8 (pt 0.675 0.350) (padstack 8))
+   (leg 9 (pt 0.750 1.150) (padstack 0))
+   (leg 10 (pt 0.250 1.150) (padstack 0))
+   (leg 11 (pt -0.250 1.150) (padstack 0))
+   (leg 12 (pt -0.750 1.150) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.600 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (model "TPS2121RUXR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

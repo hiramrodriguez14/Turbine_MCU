@@ -1,0 +1,16 @@
+.MCP41HV51-103E_ST :1 ;MCP41HV51-103E/ST, Digital Potentiometer 10k 256-Position Serial-SPI 14-Pin TSSOP
+SOP65P640X120-14N
+*STM VR
+*NGS
+*PLB 1="VL" 2="SCK" 3="CS" 4="SDI" 5="SDO" 6="WLAT" 7="SHDN" 8="N/C" 9="DGND" 10="V-" 11="P0B" 12="P0W" 13="P0A" 14="V+"
+*MXP 14
+*DFN MCP41HV51-103E_ST
+~!Mouser Part Number (579-MCP41HV51-103EST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP41HV51-103E-ST?qs=zOnbk8%2FsRx46P8R1xF6YQA%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP41HV51-103E/ST)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MCP41HV51-103E_ST.pdf)
+~!Height (1.2mm)
+~!3D_Model (MCP41HV51-103E_ST)
+MCP41HV51-103E_ST
+1.1!P 2.1!I 3.1!I 4.1!I 5.1!Y 6.1!U 7.1!I 14.1!P 13.1!G 12.1!Y 11.1!P 10.1!P 9.1!G 8.1!U 

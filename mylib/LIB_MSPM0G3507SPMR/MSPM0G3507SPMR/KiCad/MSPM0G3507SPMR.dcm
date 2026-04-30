@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSPM0G3507SPMR
+D ARM Microcontrollers - MCU 80MHz Arm M0+ MCU, 128KB Flash, 32KB SRAM, 212bit 4Msps ADC, DAC, 3COMP, 3op-amp, CAN-FD, MATHACL 64-LQFP -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968
+$ENDCMP
+#
+#End Doc Library

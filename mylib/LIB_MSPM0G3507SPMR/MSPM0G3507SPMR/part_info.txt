@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=MSPM0G3507SPMR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=1.1
+Released=2025-03-25 03:05:15
+Downloaded=2026-04-04 00:14:24
+3D=Y

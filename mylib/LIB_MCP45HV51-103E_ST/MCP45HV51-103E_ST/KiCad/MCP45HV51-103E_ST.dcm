@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP45HV51-103E_ST
+D 10K Dig.Potentiometer 256 I2C VM TSSOP14 MCP45HV51-103E/ST, Digital Potentiometer 10k 256-Position Linear Serial-I2C 14-Pin TSSOP
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en569827
+$ENDCMP
+#
+#End Doc Library

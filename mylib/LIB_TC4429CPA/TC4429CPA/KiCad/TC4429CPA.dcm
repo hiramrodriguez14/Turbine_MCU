@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC4429CPA
+D IC,Driver Interface,MOSFET,IGBT,TC4429CPA
+K
+F https://ww1.microchip.com/downloads/en/DeviceDoc/21419D.pdf
+$ENDCMP
+#
+#End Doc Library

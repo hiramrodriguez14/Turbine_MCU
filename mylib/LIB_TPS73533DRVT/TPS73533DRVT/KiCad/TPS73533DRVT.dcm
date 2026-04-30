@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS73533DRVT
+D 500mA 3.3V Low IQ/Noise LDO Reg. WSON6EP TPS73533DRVT, Low Dropout Voltage Regulator, 500mA, 1  4.3 V +/-1%, 6-Pin SON
+K
+F http://www.ti.com/lit/ds/symlink/tps735.pdf
+$ENDCMP
+#
+#End Doc Library

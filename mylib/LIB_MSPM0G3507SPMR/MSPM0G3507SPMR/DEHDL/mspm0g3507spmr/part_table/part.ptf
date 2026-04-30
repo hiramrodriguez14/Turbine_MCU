@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MSPM0G3507SPMR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "MSPM0G3507SPMR" (!) = "", "QFP50P1200X1200X160-64N", "Quad Flat Packages", "595-MSPM0G3507SPMR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MSPM0G3507SPMR?qs=ST9lo4GX8V0tukxOtqK%252B6A%3D%3D", "ARM Microcontrollers - MCU 80MHz Arm M0+ MCU, 128KB Flash, 32KB SRAM, 212bit 4Msps ADC, DAC, 3COMP, 3op-amp, CAN-FD, MATHACL 64-LQFP -40 to 125", "https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968", "1.6 mm"
+END_PART
+
+END.

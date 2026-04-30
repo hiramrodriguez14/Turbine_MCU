@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS2121RUXR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=12
+Version=1.3
+Released=2023-03-06 04:47:25
+Downloaded=2026-04-24 02:29:09
+3D=Y

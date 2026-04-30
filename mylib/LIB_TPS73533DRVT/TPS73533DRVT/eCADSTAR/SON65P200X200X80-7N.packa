@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS73533DRVT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-11-10:35:16)
+    (mountForm default
+        (footprintRef "SON65P200X200X80-7N")
+        (spec "System")
+    )
+)

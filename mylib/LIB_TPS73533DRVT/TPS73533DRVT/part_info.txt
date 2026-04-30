@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS73533DRVT
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=3.1
+Released=2016-01-04 05:02:04
+Downloaded=2026-04-04 01:27:56
+3D=Y
