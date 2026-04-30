@@ -208,9 +208,9 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J5"
-			(at 2.5 -3.55 270)
+			(at 2.5 2.75 270)
 			(layer "F.SilkS")
-			(uuid "d3e89b6f-e9a0-45a7-a93d-df2f4d0d2fb4")
+			(uuid "767e7ef6-531c-41ab-9808-81f593fb9d78")
 			(effects
 				(font
 					(size 1 1)
@@ -221,7 +221,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 270)
 			(layer "F.Fab")
-			(uuid "9850a8b0-aa0e-455c-8298-9eb62e60af64")
+			(uuid "ae4dfe10-6231-4d77-9ff3-76c3ea096eaa")
 			(effects
 				(font
 					(size 1 1)
@@ -233,7 +233,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb4ed16e-6d30-41e6-b20a-62f7db218045")
+			(uuid "abb6d8e0-bea2-4be0-9c7f-0f76b731ade8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -245,7 +245,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "face71c7-e7ae-47e4-ab64-4d544cec86e5")
+			(uuid "19e05ba3-65e1-4e66-ad33-9711a279b3aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,9 +3467,9 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J6"
-			(at 2.5 -3.55 90)
+			(at 2.5 2.75 90)
 			(layer "F.SilkS")
-			(uuid "dc2b059d-bd3f-4c6a-bb2f-d695042c34ee")
+			(uuid "166893a9-642f-48d8-90e6-5a0fb7ebcb94")
 			(effects
 				(font
 					(size 1 1)
@@ -3480,7 +3480,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 90)
 			(layer "F.Fab")
-			(uuid "01b6d5c3-b667-45b3-b6be-c48597218528")
+			(uuid "d10349c4-5162-4e68-b714-67410c31adae")
 			(effects
 				(font
 					(size 1 1)
@@ -3492,7 +3492,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ed6246d-6ea7-47e0-8f74-5ada21f8e4a4")
+			(uuid "df0f4c59-4645-49f2-8423-953563b5aa1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3504,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9115d1d-4430-4437-981c-4d91aa6c0a2b")
+			(uuid "0461efa1-94f6-4e38-a2eb-52080b9ec9f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,9 +8946,9 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J8"
-			(at 2.5 -3.55 180)
+			(at 2.4 2.7 180)
 			(layer "F.SilkS")
-			(uuid "9e96f393-86ca-4fee-b3b2-31c43f211156")
+			(uuid "7de619fd-e9e3-432c-962b-86b5d0c6ded5")
 			(effects
 				(font
 					(size 1 1)
@@ -8959,7 +8959,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 2.5 4.6 180)
 			(layer "F.Fab")
-			(uuid "1bc9fb19-866a-4d68-a42f-b1e7bf5c61bd")
+			(uuid "6b7d06d2-0fac-4894-b0b5-928221cbf337")
 			(effects
 				(font
 					(size 1 1)
@@ -8971,7 +8971,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc3a1c1b-dc6a-46c1-8d55-139fb40aef50")
+			(uuid "f0fab933-945d-490f-bbf8-b3fad896e0e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +8983,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e1f041c-2b23-4166-9db0-b7e2d3ebbfaa")
+			(uuid "3cdea399-e790-465c-b758-21384992677e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,9 +9593,9 @@
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
-			(at 3.75 -3.55 90)
+			(at 3.75 2.75 90)
 			(layer "F.SilkS")
-			(uuid "988b371c-b20f-4975-b2f4-ec4a7a834042")
+			(uuid "72120c18-bcbc-42c5-99e8-52f7d9e485cf")
 			(effects
 				(font
 					(size 1 1)
@@ -9606,7 +9606,7 @@
 		(property "Value" "Conn_01x04_Socket"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
-			(uuid "b39db1ba-5537-42df-babf-8a848b819009")
+			(uuid "9f634aa3-8fd7-4c99-bc56-adf46acaa56a")
 			(effects
 				(font
 					(size 1 1)
@@ -9618,7 +9618,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f30e62c-ef96-4eef-bca6-548481f1a81b")
+			(uuid "f334a2c4-448f-4b15-948b-6295c02bbad9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9630,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03f7e26a-12d8-4545-aaaf-3e0e2f1b2e3f")
+			(uuid "f77a48b6-d092-411a-b2c2-e596ee4f17af")
 			(effects
 				(font
 					(size 1.27 1.27)
