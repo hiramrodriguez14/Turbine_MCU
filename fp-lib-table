@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS73533DRVT")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_TPS73533DRVT/TPS73533DRVT/KiCad")(options "")(descr ""))
+  (lib (name "MSPM0SPMR")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_MSPM0G3507SPMR/MSPM0G3507SPMR/KiCad")(options "")(descr ""))
+)

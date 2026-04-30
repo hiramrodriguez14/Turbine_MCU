@@ -975,7 +975,7 @@
 			)
 		)
 	)
-	(footprint "MSPM03507:QFP50P1200X1200X160-64N"
+	(footprint "MSPM0SPMR:QFP50P1200X1200X160-64N"
 		(layer "F.Cu")
 		(uuid "07f478f4-6893-464f-92e3-26a10b31a902")
 		(at 171.262 91.85)
@@ -1004,7 +1004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1016,7 +1016,7 @@
 				)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU 80MHz Arm M0+ MCU, 128KB Flash, 32KB SRAM, 212bit 4Msps ADC, DAC, 3COMP, 3op-amp, CAN-FD, MATHACL 64-LQFP -40 to 125"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1105,7 +1105,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e60c5a9-67b5-41cf-bb8f-ea259613d4ae")
+			(uuid "74396c5b-40e2-4b6a-8efa-840109227a98")
 		)
 		(fp_line
 			(start -4.65 4.65)
@@ -1115,7 +1115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c47f09e5-c6d7-4042-9f83-b762bd276d74")
+			(uuid "5376272c-85c7-4dc9-88a6-35e86addaf3f")
 		)
 		(fp_line
 			(start 4.65 -4.65)
@@ -1125,7 +1125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cdf54cae-d2b0-4ab2-9cf0-9304e65d136a")
+			(uuid "b3979078-5774-42df-81c0-51aa15cea954")
 		)
 		(fp_line
 			(start 4.65 4.65)
@@ -1135,7 +1135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ebfc453-7b04-4af6-bb15-3d97d94d9f69")
+			(uuid "a594707e-5f05-433c-a39d-77c707aa7295")
 		)
 		(fp_circle
 			(center -6.225 -4.5)
@@ -1146,7 +1146,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "57a1d554-6dcc-4243-93c2-085654a5a41d")
+			(uuid "9e49179c-2dfa-4b52-83f5-21541851b45e")
 		)
 		(fp_line
 			(start -6.725 -6.725)
@@ -1156,7 +1156,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7e8675db-4e59-4683-99fc-6e11c1b4c9a6")
+			(uuid "239cfbb7-37b6-4bd9-a92d-c038e88a5780")
 		)
 		(fp_line
 			(start -6.725 6.725)
@@ -1166,7 +1166,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3e14a409-5dc7-487c-9445-41d8cb192881")
+			(uuid "0b7cd8fd-c314-46e8-b392-fb91b6a84842")
 		)
 		(fp_line
 			(start 6.725 -6.725)
@@ -1176,7 +1176,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c8a2ffc2-5305-400c-af66-f7e9484385a3")
+			(uuid "2150cd60-1e35-44b8-8d09-b822cf97d406")
 		)
 		(fp_line
 			(start 6.725 6.725)
@@ -1186,7 +1186,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "67421b46-06aa-4336-b422-af560e43425c")
+			(uuid "634e5d7f-d7e1-4b64-8b7f-02370e6fc5aa")
 		)
 		(fp_line
 			(start -5 -5)
@@ -1196,7 +1196,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c2f6c4bf-e9dc-4ab3-96ab-b65d6b79055a")
+			(uuid "c1e4a24c-f06b-4f1f-8a92-15de78ce6160")
 		)
 		(fp_line
 			(start -5 -4.5)
@@ -1206,7 +1206,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e7da3e8f-7ec6-4db1-8968-50e6097390ac")
+			(uuid "223f8756-9ea1-4326-9a57-5f583ac4f60c")
 		)
 		(fp_line
 			(start -5 5)
@@ -1216,7 +1216,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "928f9699-24cc-48d2-a9fd-d92437d59fb7")
+			(uuid "d63ab1a0-a5ca-4e23-97be-573a3c500054")
 		)
 		(fp_line
 			(start 5 -5)
@@ -1226,7 +1226,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3ba5e877-0e42-4dec-aead-e7fe7b8f2b26")
+			(uuid "f47ee634-b590-44bf-bb87-6b2b9f0e58ee")
 		)
 		(fp_line
 			(start 5 5)
@@ -1236,7 +1236,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7c6347d8-2921-440b-bd69-44bcc2040bcf")
+			(uuid "d389232a-4eae-4bd4-807b-097b4860f352")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1826,7 +1826,7 @@
 			(uuid "b108de5c-86fa-4b11-a5e6-c1afc83b079d")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/LQFP64 v1.step"
+		(model "${KIPRJMOD}/mylib/LQFP64 v1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2246,7 +2246,7 @@
 			(uuid "23cb5205-36e3-4ce3-9599-9088893205ac")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
+		(model "${KIPRJMOD}/mylib/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -2265,13 +2265,13 @@
 		(descr "BQ294682DRVT")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
-			(at 0.05 2.45 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f4d91388-3d9c-410c-b263-22275de4a410")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.27 1.27)
+					(thickness 0.254)
 				)
 			)
 		)
@@ -2287,7 +2287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps735.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2299,7 +2299,7 @@
 				)
 			)
 		)
-		(property "Description" "500mA 3.3V Low IQ/Noise LDO Reg. WSON6EP TPS73533DRVT, Low Dropout Voltage Regulator, 500mA, 1  4.3 V +/-1%, 6-Pin SON"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2389,7 +2389,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d7b91c68-a7c3-43c1-b8f2-4770c367c1f8")
+			(uuid "bbaba3ac-609f-419a-9a07-a52068ac9cfe")
 		)
 		(fp_line
 			(start -1.6 -1.3)
@@ -2399,7 +2399,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bd1fe311-b1da-4341-b608-61e5b92a8fbe")
+			(uuid "1852469f-504e-46bc-832a-ee02d07cf0dc")
 		)
 		(fp_line
 			(start -1.6 1.3)
@@ -2409,7 +2409,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dab1d854-dfb4-4363-be0c-26223dc38cb7")
+			(uuid "4ca9479a-9ba9-4c2d-a320-6123b5c1589f")
 		)
 		(fp_line
 			(start 1.6 -1.3)
@@ -2419,7 +2419,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7b08d886-a6ab-4be3-92a8-16bd48fbeec7")
+			(uuid "a43a5299-a90b-4d11-be50-e177fe3bb573")
 		)
 		(fp_line
 			(start 1.6 1.3)
@@ -2429,7 +2429,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4c272a81-3082-4ead-8b39-81d9c0ed4911")
+			(uuid "0aeba38d-7b7e-462f-9848-8118cd7a8c7b")
 		)
 		(fp_line
 			(start -1 -1)
@@ -2439,7 +2439,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "231cd7b0-7b32-4ed1-b82b-edb8b05297bb")
+			(uuid "a0bff788-2107-48f7-9ca0-fad31ab20204")
 		)
 		(fp_line
 			(start -1 -0.5)
@@ -2449,7 +2449,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dcb5c7bf-dd5e-4962-b97a-4a9c9f25281c")
+			(uuid "d6bb8472-704e-4b73-838b-d2ff7486f85a")
 		)
 		(fp_line
 			(start -1 1)
@@ -2459,7 +2459,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "622f38c1-f24c-4a00-847a-447a72ab9e1f")
+			(uuid "5e45fb19-789f-45e2-8dbc-fbdf1fe6db9f")
 		)
 		(fp_line
 			(start 1 -1)
@@ -2469,7 +2469,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2137f83b-9c2c-4143-85e4-f35d75b42e05")
+			(uuid "f84d318d-69b2-4a4b-8a16-7151871b2b42")
 		)
 		(fp_line
 			(start 1 1)
@@ -2479,10 +2479,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "61decc6e-fe55-4625-b41f-86413f32e8cf")
+			(uuid "6a7807e2-0a81-4682-ae6d-436cb72dc0d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.15 0.15 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "91c4c32f-5a3a-445f-972f-230ff5c131ba")
 			(effects
@@ -2556,7 +2556,7 @@
 			(uuid "065c6742-b370-4d46-875c-19508f70be12")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/WSON-6_2x2.step"
+		(model "${KIPRJMOD}/mylib/WSON-6_2x2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4522,7 +4522,7 @@
 			(uuid "89e1d63b-7247-476b-8f5f-c6815c3ad0bf")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
+		(model "${KIPRJMOD}/mylib/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -7278,7 +7278,7 @@
 			(uuid "452a127d-f348-4d78-b23c-bdacc50c7f19")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-2P.step"
+		(model "${KIPRJMOD}/mylib/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-2P.step"
 			(offset
 				(xyz 1.2 0 0)
 			)
@@ -7897,7 +7897,7 @@
 			(uuid "949344ba-23e0-4b1a-a028-bae27213ef4d")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
+		(model "${KIPRJMOD}/mylib/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-3P.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -12300,7 +12300,7 @@
 			(uuid "c4171e3f-74e5-4109-8487-5a3ff0ec83e8")
 		)
 		(embedded_fonts no)
-		(model "/Users/hiramraul11gmail.com/Downloads/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-2P.step"
+		(model "${KIPRJMOD}/mylib/kf128-screw-terminal-2-54-mm-pitch-1.snapshot.2/KF128 2.54mm/KF128-2.54-2P.step"
 			(offset
 				(xyz 1.2 0 0)
 			)
