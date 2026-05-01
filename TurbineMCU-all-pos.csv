@@ -1,0 +1,27 @@
+Designator,Comment,Package,Mid X,Mid Y,Rotation,Layer
+C1,2.2u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,174.7,-80.2625,-90,top
+C2,0.1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,184.4,-79.0375,90,top
+C3,10n,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,177.9,-80.0675,-90,top
+C4,10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,185.2375,-94.3,0,top
+C5,0.1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,185.1625,-89.8,0,top
+C6,10n,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,186.2375,-102.6,0,top
+C7,0.47u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,174.5625,-103,0,top
+C8,0.1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,159.0625,-99.1,180,top
+C9,0.1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,184.7375,-106.9,0,top
+C10,1u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,166.3325,-104.15,180,top
+D1,YELLOW,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,182.875,-83.8,180,top
+D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,159.1,-107.4,0,top
+IC1,MSPM0G3507SPMR,QFP50P1200X1200X160-64N,171.262,-91.85,0,top
+IC2,TPS73533DRVT,SON65P200X200X80-7N,180.1,-79.5,0,top
+R1,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,159.85,-95,0,top
+R2,47k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,180.6,-93.3,180,top
+R3,47k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,172.1,-107.7,180,top
+R4,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,177.9,-83.3,180,top
+R5,100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,180.3875,-89.8,0,top
+R6,1k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,158.85,-103.2,180,top
+R7,0R,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,166.0975,-99.5,180,top
+R8,47k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,180.4,-98.9,0,top
+R9,47k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,185.7,-98.9,0,top
+R10,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,160.35,-86.3,0,top
+R11,20k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,159.85,-90.7,0,top
+R12,20k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,179.35,-106.9,0,top
