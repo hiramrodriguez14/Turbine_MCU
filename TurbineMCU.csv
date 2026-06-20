@@ -16,7 +16,8 @@ J3,1,Conn_01x04_Socket,,YES,,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
 "J10,J13,J14",3,Conn_01x03_Socket,,YES,,TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,~,
 J15,1,Conn_01x08_Pin,,YES,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,
 "R1,R10",2,10k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17902
-"R2,R3,R8,R9",4,47k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,C17713
+"R8,R9",2,4.7k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,C17675
+"R2,R3",2,47k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,C17713
 R4,1,1k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,C17513
 R5,1,100k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,C2912578
 R6,1,1k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C4410

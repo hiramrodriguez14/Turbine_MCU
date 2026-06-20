@@ -3900,6 +3900,18 @@
 		)
 		(uuid "b3f22f1a-ddcc-4fbf-a9e1-78bc867ad5f1")
 	)
+	(text "Extra Power"
+		(exclude_from_sim no)
+		(at 213.614 145.542 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "c04741d3-a106-493e-89e0-989c0b0697c6")
+	)
 	(text "Servo Motors"
 		(exclude_from_sim no)
 		(at 28.956 160.782 0)
@@ -4271,6 +4283,16 @@
 			(type default)
 		)
 		(uuid "0160ce8e-6119-457c-a28c-3399d53f8b47")
+	)
+	(wire
+		(pts
+			(xy 200.66 161.29) (xy 209.55 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02632b92-b947-4972-bc84-c223b76d710e")
 	)
 	(wire
 		(pts
@@ -4964,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 156.21) (xy 238.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c575b3e-920f-4dfe-97fd-60e8fa0eb1b7")
+	)
+	(wire
+		(pts
 			(xy 63.5 107.95) (xy 63.5 109.22)
 		)
 		(stroke
@@ -5434,6 +5466,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 158.75) (xy 209.55 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec73950-1edf-4551-92da-9d1fcf320465")
+	)
+	(wire
+		(pts
 			(xy 181.61 119.38) (xy 181.61 121.92)
 		)
 		(stroke
@@ -5711,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "80bd16db-363f-48ec-87cf-587c6562d83e")
+	)
+	(wire
+		(pts
+			(xy 229.87 156.21) (xy 238.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811ffe66-0cc4-4b41-b4fd-afd9a3f41cd2")
 	)
 	(wire
 		(pts
@@ -6071,6 +6123,16 @@
 			(type default)
 		)
 		(uuid "a499da28-9175-41bb-8775-0de97a0796d5")
+	)
+	(wire
+		(pts
+			(xy 209.55 158.75) (xy 209.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c5dce8-780b-4018-a1f3-58cb100a4e6e")
 	)
 	(wire
 		(pts
@@ -6901,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "eaffe70f-5717-4312-b764-3f3e41fc7ce3")
+	)
+	(wire
+		(pts
+			(xy 229.87 158.75) (xy 238.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb19a735-2d66-457b-8a67-e211adef3edc")
 	)
 	(wire
 		(pts
@@ -8364,6 +8436,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 238.76 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b645ff2-b5f9-4604-9ccf-29370540ecf0")
+		(property "Reference" "#PWR028"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b3f12b-3210-4ce4-9bf6-2bd91d019654")
+		)
+		(instances
+			(project "TurbineMCU"
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9215,7 +9354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "4.7k"
 			(at 191.77 132.0799 0)
 			(effects
 				(font
@@ -10227,6 +10366,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 195.58 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a90171-b573-4ce5-aa7d-523e4d5d0087")
+		(property "Reference" "J7"
+			(at 196.215 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 196.215 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 195.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 195.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02f40eb-b1ce-4fed-872a-e4b82cfc470f")
+		)
+		(pin "2"
+			(uuid "6cb4b341-e433-45f5-8d93-b1071c08bf60")
+		)
+		(instances
+			(project "TurbineMCU"
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 33.02 30.48 0)
 		(unit 1)
@@ -10555,6 +10762,72 @@
 			(project "TurbineMCU"
 				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60b0ed8e-7540-4264-ae1f-c9c388c49b95")
+		(property "Reference" "#PWR037"
+			(at 209.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a940cda3-6858-47a9-bf42-3eec8e36d58d")
+		)
+		(instances
+			(project "TurbineMCU"
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10956,6 +11229,74 @@
 			(project ""
 				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 224.79 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ddebd3c-1c05-4dcd-a593-fa569aae4265")
+		(property "Reference" "J4"
+			(at 225.425 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 225.425 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17cf21fa-f917-409b-8605-141f6c55ea1b")
+		)
+		(pin "2"
+			(uuid "1a2f2763-3ceb-4e0d-bddf-525e3def1056")
+		)
+		(instances
+			(project "TurbineMCU"
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12818,6 +13159,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0a58df-bdc4-4517-bcc3-24ae03d38af4")
+		(property "Reference" "#PWR040"
+			(at 215.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4bd3f8e-8022-4c41-a243-9d86d1d5a0d0")
+		)
+		(instances
+			(project "TurbineMCU"
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 104.14 0)
 		(unit 1)
@@ -13428,6 +13836,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 238.76 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff6421c-1926-470d-bb02-23ff78189ecf")
+		(property "Reference" "#PWR027"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7882606-b172-472a-be1e-c9799c9d7f6a")
+		)
+		(instances
+			(project ""
+				(path "/c0703d48-7c68-4fbb-aa07-304e2f8bcbf8"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 128.27 0)
 		(unit 1)
@@ -13435,7 +13909,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0043c78-2dcc-4221-a797-e9d84ab14898")
 		(property "Reference" "R8"
 			(at 184.15 126.9999 0)
@@ -13446,8 +13919,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
-			(at 184.15 129.5399 0)
+		(property "Value" "4.7k"
+			(at 183.388 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
