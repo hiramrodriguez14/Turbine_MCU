@@ -10,11 +10,11 @@ This repository contains the complete KiCad hardware design, manufacturing files
 
 # Documentation & Demo
 
-| Resource                 | Link                            |
+| Resource | Link |
 | ------------------------ | ------------------------------- |
-| 🎥 Project Demonstration | *(Add YouTube Link)*            |
-| 📄 Final Project Report  | *(Add Final Report Link)*       |
-| 📚 Technical Appendix    | *(Add Technical Appendix Link)* |
+| 🎥 Project Demonstration | https://www.youtube.com/watch?v=vS5Ok38P1Jk |
+| 📄 Final Project Report | https://drive.google.com/file/d/1cckKhvj7mvzCEbm3IqWp0KvrUp9g6mgg/view?usp=sharing |
+| 📚 Technical Appendix | https://drive.google.com/file/d/1xu7MtcffDlpna8_BUkwEc_BfjpQJpUep/view?usp=sharing |
 
 ---
 
@@ -30,19 +30,19 @@ The PCB was designed with reliability, debugging, and manufacturability in mind,
 
 # Engineering Highlights
 
-* Custom 2-layer PCB
-* Designed in KiCad
-* Texas Instruments MSPM0G3507
-* Dual servo motor interface
-* Hall-effect sensor interface
-* Hot-wire anemometer interface
-* UART communication
-* PWM generation
-* Programming and debug header
-* Dedicated test points
-* Production-ready Gerber files
-* Manufacturing BOM
-* Pick-and-Place (CPL) files
+- Custom 2-layer PCB
+- Designed in KiCad
+- Texas Instruments MSPM0G3507
+- Dual servo motor interface
+- Hall-effect sensor interface
+- Hot-wire anemometer interface
+- UART communication
+- PWM generation
+- Programming and debug header
+- Dedicated test points
+- Production-ready Gerber files
+- Manufacturing BOM
+- Pick-and-Place (CPL) files
 
 ---
 
@@ -52,26 +52,26 @@ The Turbine MCU PCB integrates the following subsystems.
 
 ### Turbine Monitoring
 
-* Rotor RPM sensing
-* Wind speed acquisition
-* Sensor signal conditioning
+- Rotor RPM sensing
+- Wind speed acquisition
+- Sensor signal conditioning
 
 ### Pitch Control
 
-* Dual servo motor outputs
-* PWM control interface
-* Blade pitch actuation
+- Dual servo motor outputs
+- PWM control interface
+- Blade pitch actuation
 
 ### Communication
 
-* UART interface with the Load Control & UI MCU
-* Programming and debugging interface
+- UART interface with the Load Control & UI MCU
+- Programming and debugging interface
 
 ### System Management
 
-* Local power regulation
-* Test points
-* Status indicators
+- Local power regulation
+- Test points
+- Status indicators
 
 ---
 
@@ -81,18 +81,20 @@ The Turbine MCU PCB serves as the dedicated controller for the turbine's mechani
 
 Primary responsibilities include:
 
-* Wind speed acquisition
-* Rotor speed measurement
-* Blade pitch control
-* Turbine state supervision
-* Safety monitoring
-* Communication with the Load Control & UI MCU
+- Wind speed acquisition
+- Rotor speed measurement
+- Blade pitch control
+- Turbine state supervision
+- Safety monitoring
+- Communication with the Load Control & UI MCU
 
-**Suggested image**
+<p align="center">
+  <img src="./images/system_architecture.png" width="900">
+</p>
 
-`images/system_overview.png`
-
-*Figure 2 – Top-Level System View*
+<p align="center">
+<b>Figure 1.</b> Turbine MCU Hardware Architecture
+</p>
 
 ---
 
@@ -102,26 +104,58 @@ The PCB was developed using KiCad following standard embedded hardware design pr
 
 Special consideration was given to:
 
-* Servo routing
-* Sensor integrity
-* Ground plane implementation
-* Test point accessibility
-* Programming interface accessibility
-* Manufacturing compatibility
+- Servo routing
+- Sensor integrity
+- Ground plane implementation
+- Test point accessibility
+- Programming interface accessibility
+- Manufacturing compatibility
 
-**Suggested images**
+## Top Layer
 
-`images/pcb_top.png`
+<p align="center">
+  <img src="./images/turbinemcu_frontlayer.png" width="900">
+</p>
 
-Top Layer PCB
+<p align="center">
+<b>Figure 2.</b> Top Layer PCB Layout
+</p>
 
-`images/pcb_bottom.png`
+---
 
-Bottom Layer PCB
+## Bottom Layer
 
-`images/pcb_3d.png`
+<p align="center">
+  <img src="./images/turbinemcu_backlayer.png" width="900">
+</p>
 
-3D PCB View
+<p align="center">
+<b>Figure 3.</b> Bottom Layer PCB Layout
+</p>
+
+---
+
+## Combined Layer View
+
+<p align="center">
+  <img src="./images/turbine_mcu_bothlayer.png" width="900">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Combined PCB Layers
+</p>
+
+---
+
+## 3D PCB View
+
+<p align="center">
+  <img src="./images/turbine_mcu_3Dview.png" width="900">
+</p>
+
+<p align="center">
+<b>Figure 5.</b> 3D PCB Rendering
+</p>
 
 ---
 
@@ -131,12 +165,12 @@ This repository contains all files required for PCB fabrication and assembly.
 
 Included manufacturing assets:
 
-* Gerber files
-* Drill files
-* Pick-and-Place (CPL)
-* Bill of Materials (BOM)
-* Complete schematic
-* PCB layout
+- Gerber files
+- Drill files
+- Pick-and-Place (CPL)
+- Bill of Materials (BOM)
+- Complete schematic
+- PCB layout
 
 ---
 
@@ -144,11 +178,11 @@ Included manufacturing assets:
 
 ## PCB Design
 
-* KiCad
+- KiCad
 
 ## Target MCU
 
-* Texas Instruments MSPM0G3507
+- Texas Instruments MSPM0G3507
 
 ---
 
@@ -158,6 +192,7 @@ Included manufacturing assets:
 HAWT-TurbineMCU-PCB
 │
 ├── gerbers/                   Manufacturing Gerber files
+├── images/                    Documentation images
 ├── mylib/                     Custom KiCad component library
 ├── TurbineMCU.kicad_pcb       PCB layout
 ├── TurbineMCU.kicad_sch       Main schematic
@@ -175,20 +210,20 @@ HAWT-TurbineMCU-PCB
 
 # Related Repositories
 
-| Repository               | Description                                                      |
+| Repository | Description |
 | ------------------------ | ---------------------------------------------------------------- |
 | HAWT-TurbineMCU-Firmware | Embedded firmware for turbine monitoring and blade pitch control |
 | HAWT-Load_Control_and_UI | Embedded firmware for battery charging, UI, and power management |
-| HAWT-LoadUI-PCB          | PCB design for the Load Control & UI MCU                         |
+| HAWT-LoadUI-PCB | PCB design for the Load Control & UI MCU |
 
 ---
 
 # Authors
 
-* Hiram R. Rodríguez Hernández
-* José M. Burgos Guntín
-* Sergio A. Meléndez Padilla
-* Sergio A. Da Silva López
+- Hiram R. Rodríguez Hernández
+- José M. Burgos Guntín
+- Sergio A. Meléndez Padilla
+- Sergio A. Da Silva López
 
 Department of Electrical & Computer Engineering
 
