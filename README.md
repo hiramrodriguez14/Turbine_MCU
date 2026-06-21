@@ -93,7 +93,7 @@ Primary responsibilities include:
 </p>
 
 <p align="center">
-<b>Figure 1.</b> Turbine MCU Hardware Architecture
+<b>Figure 1.</b> System Architecture
 </p>
 
 ---
