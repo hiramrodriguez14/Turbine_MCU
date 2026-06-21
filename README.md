@@ -89,11 +89,11 @@ Primary responsibilities include:
 - Communication with the Load Control & UI MCU
 
 <p align="center">
-  <img src="./images/system_architecture.png" width="900">
+  <img src="./images/turbinemcu_architecture.png" width="900">
 </p>
 
 <p align="center">
-<b>Figure 1.</b> System Architecture
+<b>Figure 1.</b> Turbine MCU Architecture
 </p>
 
 ---
