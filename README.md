@@ -214,7 +214,7 @@ HAWT-TurbineMCU-PCB
 | ------------------------ | ---------------------------------------------------------------- |
 | HAWT-TurbineMCU-Firmware | Embedded firmware for turbine monitoring and blade pitch control |
 | HAWT-Load_Control_and_UI | Embedded firmware for battery charging, UI, and power management |
-| HAWT-LoadUI-PCB | PCB design for the Load Control & UI MCU |
+| Load-UI_MCU              | PCB design for the Load Control & UI MCU |
 
 ---
 
